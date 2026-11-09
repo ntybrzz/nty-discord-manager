@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://cdn.discordapp.com/emojis/1234567890.png" width="80" height="80" alt="Bot Logo">
-
 # 🤖 nty-discord-manager
 
 > Bot multifuncional para Discord desenvolvido em **TypeScript** com **discord.js v14**, focado em organização, automação e experiência de atendimento.
