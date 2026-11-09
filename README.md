@@ -2,7 +2,7 @@
 
 # 🤖 nty-discord-manager
 
-> Bot multifuncional para Discord desenvolvido em **TypeScript** com **discord.js v14**, focado em organização, automação e experiência de atendimento.
+>  multifuncional para Discord desenvolvido em **TypeScript** com **discord.js v14**, focado em organização, automação e experiência de atendimento.
 
 <br>
 
@@ -34,8 +34,8 @@
 - Abertura de tickets por categorias: **Dúvidas**, **Suporte** e **Parcerias**
 - Verificação automática de ticket já aberto (impede duplicatas)
 - Painel interativo com **Components V2** (discord.js v14+)
-- Botão de **Notificação via DM** com cooldown de 5 minutos (anti-spam)
-- Botão de **Encerramento** com aviso e exclusão automática do canal após 5 segundos
+- ão de **Notificação via DM** com cooldown de 5 minutos (anti-spam)
+- ão de **Encerramento** com aviso e exclusão automática do canal após 5 segundos
 - Envio automático de **log de encerramento** no canal configurado
 - Permissões automáticas por canal: apenas o dono do ticket e a equipe têm acesso
 
@@ -133,7 +133,7 @@ BOT_TOKEN=seu_token_aqui
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/ntybrzz/bot.git
+git clone https://github.com/ntybrzz/nty-discord-manager
 cd bot
 
 # 2. Instale as dependências
@@ -180,7 +180,7 @@ npm start
 
 ### Botões do ticket
 
-| Botão | Permissão | Descrição |
+| ão | Permissão | Descrição |
 |---|---|---|
 | 🔔 Notificar usuário | Staff / Admin | Envia DM ao dono do ticket. Cooldown de 5 min |
 | ❌ Excluir ticket | Staff / Admin | Encerra e deleta o canal após 5 segundos |
@@ -238,7 +238,7 @@ Acesse com `/panel`. Requer permissão de **Administrador**.
 
 | Tecnologia | Versão | Uso |
 |---|---|---|
-| [discord.js](https://discord.js.org/) | v14.28+ | Framework principal do bot |
+| [discord.js](https://discord.js.org/) | v14.28+ | Framework principal do  |
 | [TypeScript](https://www.typescriptlang.org/) | v7.0 | Linguagem e tipagem |
 | [tsx](https://github.com/privatenumber/tsx) | v4.23+ | Execução em desenvolvimento com hot-reload |
 | [wio.db](https://github.com/WillianSants/wio.db) | v4.0+ | Banco de dados JSON local |
